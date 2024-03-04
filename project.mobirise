@@ -39,7 +39,7 @@
       ]
     },
     "path": "@PROJECT_PATH@",
-    "name": "BM Custom Furniture 4.4-ie",
+    "name": "BM Custom Furniture 4.4",
     "versionFirst": "4.10.8",
     "siteFonts": [
       {
@@ -88,7 +88,7 @@
       "rejectText": "Reject"
     },
     "chatbutton": {},
-    "mbrsiteDomain": "bfwtuv8xcc",
+    "mbrsiteDomain": "nqgrllxwn0",
     "modified": "2022-11-07T16:11:50.900Z",
     "usedWebp": true
   },

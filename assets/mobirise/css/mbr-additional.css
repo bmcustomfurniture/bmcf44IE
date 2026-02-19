@@ -11015,3 +11015,36 @@ section.lazy-placeholder:after {
 .cid-rBU0ejcToe .column-title {
   color: #ffffff;
 }
+
+/* --- Visual quick wins: nav density --- */
+.cid-rBzYp7mehB .navbar {
+  min-height: 84px;
+}
+
+.cid-rBzYp7mehB .menu-logo .navbar-brand {
+  margin-left: 2rem;
+}
+
+.cid-rBzYp7mehB .navbar-toggleable-sm .navbar-collapse {
+  padding-right: 2rem;
+}
+
+.cid-rBzYp7mehB .nav-item a {
+  padding: 0.25rem 0 !important;
+  margin: 0.25rem 0.75rem !important;
+}
+
+@media (max-width: 1280px) {
+  .cid-rBzYp7mehB .menu-logo .navbar-brand {
+    margin-left: 1rem;
+  }
+
+  .cid-rBzYp7mehB .navbar-toggleable-sm .navbar-collapse {
+    padding-right: 1rem;
+  }
+
+  .cid-rBzYp7mehB .nav-item a {
+    margin: 0.2rem 0.45rem !important;
+    font-size: 1.05rem;
+  }
+}

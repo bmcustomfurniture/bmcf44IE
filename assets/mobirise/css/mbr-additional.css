@@ -11077,3 +11077,29 @@ section.lazy-placeholder:after {
     padding-bottom: 44px;
   }
 }
+
+/* --- Visual quick wins: contrast polish --- */
+.cid-rUOLVa2e34 .mbr-iconfont-social,
+.cid-rBP8nbtL7j .mbr-iconfont-social {
+  color: #ffffff;
+}
+
+.cid-rUOLVa2e34 .mbr-iconfont-social:hover,
+.cid-rBP8nbtL7j .mbr-iconfont-social:hover {
+  color: #ffe1b3;
+}
+
+.cid-rBAQ019XQY .footer-lower .social-list a,
+.cid-rBU0ejcToe .footer-lower .social-list a {
+  opacity: 0.85;
+}
+
+.cid-rBAQ019XQY .footer-lower .social-list .mbr-iconfont-social,
+.cid-rBU0ejcToe .footer-lower .social-list .mbr-iconfont-social {
+  color: #ffffff;
+}
+
+.cid-rBAQ019XQY .footer-lower .social-list a:hover,
+.cid-rBU0ejcToe .footer-lower .social-list a:hover {
+  opacity: 1;
+}

@@ -11103,3 +11103,21 @@ section.lazy-placeholder:after {
 .cid-rBU0ejcToe .footer-lower .social-list a:hover {
   opacity: 1;
 }
+
+/* --- Visual quick wins: responsive image strips --- */
+section[id^="image03-"] .image-block {
+  height: auto !important;
+  aspect-ratio: 16 / 10;
+}
+
+section[id^="image03-"] .image-block img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 992px) {
+  section[id^="image03-"] .image-block {
+    aspect-ratio: 4 / 3;
+  }
+}

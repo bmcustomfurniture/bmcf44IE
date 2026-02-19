@@ -11240,8 +11240,15 @@ section.menu + section:not(.menu) {
   font-size: 1.15rem;
 }
 
-/* Restore visible image gutters in the index services row (Staircase/TV/Wall) */
+/* Keep both index services rows on the same gutter system */
+.cid-rBAz8v504q .card,
 .cid-rBAA7Dntkc .card {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.cid-rBAz8v504q .card .card-block .photo,
+.cid-rBAA7Dntkc .card .card-block .photo {
+  display: block;
+  width: 100%;
 }

@@ -11048,3 +11048,32 @@ section.lazy-placeholder:after {
     font-size: 1.05rem;
   }
 }
+
+/* --- Visual quick wins: hero rhythm --- */
+.cid-rBBcNBAVRW {
+  padding-top: 120px;
+  padding-bottom: 64px;
+}
+
+.cid-rBBcNBAVRW .row {
+  align-items: center;
+}
+
+.cid-rBBcNBAVRW .typed-text {
+  margin-bottom: 0.75rem;
+}
+
+.cid-rBBcNBAVRW .mbr-section-subtitle {
+  line-height: 1.08;
+}
+
+.cid-rBBcNBAVRW .mbr-section-text {
+  margin-bottom: 0;
+}
+
+@media (max-width: 767px) {
+  .cid-rBBcNBAVRW {
+    padding-top: 104px;
+    padding-bottom: 44px;
+  }
+}

@@ -1169,3 +1169,30 @@ pre {
   justify-content: center;
   -webkit-justify-content: center;
 }
+
+/* --- Visual quick wins: typography rhythm --- */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+.display-1,
+.display-2,
+.display-3,
+.display-4 {
+  line-height: 1.14;
+}
+
+body,
+p,
+.mbr-text,
+.mbr-section-subtitle {
+  line-height: 1.55;
+}

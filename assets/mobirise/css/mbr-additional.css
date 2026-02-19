@@ -11217,3 +11217,25 @@ section.menu + section:not(.menu) {
     margin-top: 72px;
   }
 }
+
+/* Normalize footer contact and social icon alignment across templates */
+.footer1 .contact-list .list-item p {
+  margin-left: 0;
+}
+
+.footer1 .footer-lower .social-list .soc-item a {
+  width: 2.05rem;
+  height: 2.05rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer1 .footer-lower .social-list .mbr-iconfont-social {
+  line-height: 1;
+  display: inline-block;
+}
+
+.footer1 .footer-lower .social-list .fa-phone {
+  font-size: 1.15rem;
+}

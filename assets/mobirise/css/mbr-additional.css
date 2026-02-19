@@ -11051,7 +11051,7 @@ section.lazy-placeholder:after {
 
 /* --- Visual quick wins: hero rhythm --- */
 .cid-rBBcNBAVRW {
-  padding-top: 120px;
+  padding-top: 72px;
   padding-bottom: 64px;
 }
 
@@ -11073,7 +11073,7 @@ section.lazy-placeholder:after {
 
 @media (max-width: 767px) {
   .cid-rBBcNBAVRW {
-    padding-top: 104px;
+    padding-top: 56px;
     padding-bottom: 44px;
   }
 }
@@ -11122,9 +11122,9 @@ section[id^="image03-"] .image-block img {
   }
 }
 
-/* Keep first image-strip sections clear of fixed navigation */
+/* Avoid double spacing; first-section offset is handled globally below */
 section.menu + section[id^="image03-"] {
-  padding-top: 84px !important;
+  padding-top: 0 !important;
 }
 
 /* Preserve top-of-image content in cropped strips */
@@ -11162,5 +11162,58 @@ section.menu .nav-item a {
   section.menu .nav-item a {
     margin: 0.2rem 0.45rem !important;
     font-size: 1.05rem;
+  }
+}
+
+/* --- Final nav polish and first-section offset --- */
+section.menu .navbar,
+section.menu .navbar.navbar-short {
+  min-height: 78px;
+  padding: 0.35rem 0;
+  background: rgba(34, 34, 34, 0.95) !important;
+  border-bottom: 1px solid rgba(255, 153, 0, 0.45);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.22);
+}
+
+section.menu .navbar-dropdown.bg-color.transparent.opened {
+  background: rgba(34, 34, 34, 0.95) !important;
+}
+
+section.menu .menu-logo .navbar-brand {
+  min-height: 3.1rem;
+}
+
+section.menu .menu-logo .navbar-brand .navbar-logo img {
+  height: 3.2rem !important;
+}
+
+section.menu .menu-logo .navbar-brand .navbar-caption {
+  letter-spacing: 0.02em;
+}
+
+section.menu .nav-item a {
+  margin: 0.15rem 0.55rem !important;
+  padding: 0.3rem 0 !important;
+  font-size: 1.02rem;
+}
+
+section.menu .nav-link:hover,
+section.menu .dropdown-item:hover {
+  color: #ffd7a6 !important;
+  border-color: #ffb347;
+}
+
+section.menu + section:not(.menu) {
+  margin-top: 78px;
+}
+
+@media (max-width: 767px) {
+  section.menu .navbar,
+  section.menu .navbar.navbar-short {
+    min-height: 72px;
+  }
+
+  section.menu + section:not(.menu) {
+    margin-top: 72px;
   }
 }

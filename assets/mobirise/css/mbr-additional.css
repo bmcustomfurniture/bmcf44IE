@@ -10805,10 +10805,11 @@ section.lazy-placeholder:after {
   background: #ffffff !important;
   color: #4d4d4d !important;
   border-radius: 999px !important;
-  padding: 0.34rem 0.68rem !important;
-  font-size: 0.84rem;
-  line-height: 1.15;
-  font-weight: 500;
+  padding: 0.38rem 0.8rem !important;
+  font-size: 0.9rem;
+  line-height: 1.2;
+  font-family: 'Source Sans Pro', sans-serif !important;
+  font-weight: 600;
   letter-spacing: 0;
   text-transform: none;
   box-shadow: none !important;

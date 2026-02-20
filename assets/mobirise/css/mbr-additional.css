@@ -10813,6 +10813,23 @@ section.lazy-placeholder:after {
   background: #d3d3d3 !important;
   transform: rotate(35deg) translateY(-59%);
 }
+.cid-s3vYAIOfUS .mbr-gallery-filter ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.45rem 0.65rem;
+  width: 100%;
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 0.75rem;
+}
+.cid-s3vYAIOfUS .mbr-gallery-filter li {
+  display: inline-flex;
+  padding: 0;
+}
+.cid-s3vYAIOfUS li:not(:last-child):after {
+  display: none;
+}
 .cid-s3vYAIOfUS .mbr-gallery-item > div::before {
   content: '';
   position: absolute;
@@ -10866,6 +10883,21 @@ section.lazy-placeholder:after {
   transition: 0.2s background ease-in-out;
 }
 @media (max-width: 767px) {
+  .cid-s3vYAIOfUS .mbr-gallery-filter {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 0.5rem;
+  }
+  .cid-s3vYAIOfUS .mbr-gallery-filter ul {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    width: max-content;
+    max-width: none;
+    gap: 0.5rem;
+  }
+  .cid-s3vYAIOfUS .mbr-gallery-filter li {
+    flex: 0 0 auto;
+  }
   .cid-s3vYAIOfUS .btn[class*="-outline"] {
     padding: 0rem 1rem;
     margin: 0!important;

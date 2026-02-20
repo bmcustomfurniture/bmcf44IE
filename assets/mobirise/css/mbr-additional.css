@@ -10800,6 +10800,36 @@ section.lazy-placeholder:after {
 .cid-s3vYAIOfUS li.active .btn-danger-outline {
   color: #b69b74 !important;
 }
+.cid-s3vYAIOfUS .mbr-gallery-filter li .btn {
+  border: 1px solid #d9d9d9 !important;
+  background: #ffffff !important;
+  color: #4d4d4d !important;
+  border-radius: 999px !important;
+  padding: 0.45rem 0.95rem !important;
+  font-size: 0.95rem;
+  line-height: 1.2;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  box-shadow: none !important;
+  transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+.cid-s3vYAIOfUS .mbr-gallery-filter li .btn:hover,
+.cid-s3vYAIOfUS .mbr-gallery-filter li .btn:focus {
+  background: #fff8ef !important;
+  border-color: #ffca7f !important;
+  color: #8b4d00 !important;
+  transform: translateY(-1px);
+}
+.cid-s3vYAIOfUS .mbr-gallery-filter li.active .btn {
+  background-color: #ff9900 !important;
+  border-color: #ff9900 !important;
+  color: #ffffff !important;
+  box-shadow: 0 10px 18px rgba(255, 153, 0, 0.28) !important;
+}
+.cid-s3vYAIOfUS .mbr-gallery-filter li .btn:focus-visible {
+  outline: 2px solid rgba(255, 153, 0, 0.45);
+  outline-offset: 2px;
+}
 .cid-s3vYAIOfUS li {
   position: relative;
 }
@@ -10887,6 +10917,7 @@ section.lazy-placeholder:after {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
     padding-bottom: 0.5rem;
+    position: relative;
   }
   .cid-s3vYAIOfUS .mbr-gallery-filter ul {
     flex-wrap: nowrap;
@@ -10897,6 +10928,24 @@ section.lazy-placeholder:after {
   }
   .cid-s3vYAIOfUS .mbr-gallery-filter li {
     flex: 0 0 auto;
+  }
+  .cid-s3vYAIOfUS .mbr-gallery-filter:before,
+  .cid-s3vYAIOfUS .mbr-gallery-filter:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 18px;
+    height: calc(100% - 0.5rem);
+    pointer-events: none;
+    z-index: 2;
+  }
+  .cid-s3vYAIOfUS .mbr-gallery-filter:before {
+    left: 0;
+    background: linear-gradient(to right, #ffffff, rgba(255, 255, 255, 0));
+  }
+  .cid-s3vYAIOfUS .mbr-gallery-filter:after {
+    right: 0;
+    background: linear-gradient(to left, #ffffff, rgba(255, 255, 255, 0));
   }
   .cid-s3vYAIOfUS .btn[class*="-outline"] {
     padding: 0rem 1rem;

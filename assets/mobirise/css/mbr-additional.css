@@ -10805,11 +10805,12 @@ section.lazy-placeholder:after {
   background: #ffffff !important;
   color: #4d4d4d !important;
   border-radius: 999px !important;
-  padding: 0.45rem 0.95rem !important;
-  font-size: 0.95rem;
-  line-height: 1.2;
-  font-weight: 600;
-  letter-spacing: 0.01em;
+  padding: 0.34rem 0.68rem !important;
+  font-size: 0.84rem;
+  line-height: 1.15;
+  font-weight: 500;
+  letter-spacing: 0;
+  text-transform: none;
   box-shadow: none !important;
   transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
 }
@@ -10847,18 +10848,26 @@ section.lazy-placeholder:after {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 0.45rem 0.65rem;
+  gap: 0.35rem 0.45rem;
   width: 100%;
-  max-width: 1120px;
+  max-width: 100%;
   margin: 0 auto;
-  padding: 0 0.75rem;
+  padding: 0 0.5rem;
 }
 .cid-s3vYAIOfUS .mbr-gallery-filter li {
   display: inline-flex;
   padding: 0;
 }
+.cid-s3vYAIOfUS .mbr-gallery-filter li .btn {
+  white-space: nowrap;
+}
 .cid-s3vYAIOfUS li:not(:last-child):after {
   display: none;
+}
+@media (min-width: 992px) {
+  .cid-s3vYAIOfUS .mbr-gallery-filter ul {
+    flex-wrap: nowrap;
+  }
 }
 .cid-s3vYAIOfUS .mbr-gallery-item > div::before {
   content: '';
